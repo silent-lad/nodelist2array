@@ -1,0 +1,26 @@
+{
+  "name": "nodelist2array",
+  "version": "1.0.0",
+  "description": "nodelist are not Javascript Arrays to be exact this package turns them into arrays and lets you use functions like map, reduce, filter and sort on them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-lad/nodelist2array.git"
+  },
+  "keywords": [
+    "convert",
+    "querySelectorAll",
+    "array",
+    "nodelist",
+    "node"
+  ],
+  "author": "silentlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silent-lad/nodelist2array/issues"
+  },
+  "homepage": "https://github.com/silent-lad/nodelist2array#readme"
+}
