@@ -1,4 +1,4 @@
-export default function nodelist2array(nl) {
+function nodelist2array(nl) {
   "use strict";
   var l = nl.length,
     arr = new Array(l);
@@ -7,3 +7,5 @@ export default function nodelist2array(nl) {
   }
   return arr;
 }
+
+module.exports = nodelist2array;
