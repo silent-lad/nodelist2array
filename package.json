@@ -1,6 +1,6 @@
 {
   "name": "nodelist2array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodelist are not Javascript Arrays to be exact this package turns them into arrays and lets you use functions like map, reduce, filter and sort on them",
   "main": "index.js",
   "scripts": {
