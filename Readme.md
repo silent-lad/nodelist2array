@@ -11,10 +11,12 @@ It extends to anything which has `.length` property but is not a an Array.
 
 ## Code and usage
 
-    document.querySelectorAll('div').map(...) //WON'T WORK!!!
+```javascript
+document.querySelectorAll('div').map(...) //WON'T WORK!!!
 
-    var divSelectorArray = nodelist2array(document.querySelectorAll('div'))
-    divSelectorArray.map(...); //It will work properly
+var divSelectorArray = nodelist2array(document.querySelectorAll('div'))
+divSelectorArray.map(...); //It will work properly
+```
 
 ## Instalation
 
